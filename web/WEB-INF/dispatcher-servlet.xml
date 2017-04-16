@@ -48,9 +48,9 @@
     <bean id="dataSource" 
           class="org.springframework.jdbc.datasource.DriverManagerDataSource"
           p:driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
-          p:url="jdbc:sqlserver://localhost:1433; Database=Personel"
+          p:url="jdbc:sqlserver://mssql42908-env-6954993.jelastic.skali.net:1433; Database=Personel"
           p:username="sa"
-          p:password="">
+          p:password="EBScka75153">
     </bean>
 	
     <!-- Cấu hình Hibernate -->
